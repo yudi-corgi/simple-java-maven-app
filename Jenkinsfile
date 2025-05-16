@@ -3,7 +3,9 @@ pipeline {
 
     stages {
         stage('测试') {
-            echo '输出点什么'
+            steps {
+                echo '输出点什么'
+            }
         }
     }
 
